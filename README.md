@@ -35,5 +35,3 @@ Allows users to register, login, and manage tasks with status, due dates, and as
 - Enhanced UI/UX features and responsiveness
 - User roles and notifications
 
-## License
-Specify your project license here (e.g., MIT License).
