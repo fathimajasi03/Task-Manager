@@ -1,32 +1,39 @@
-Task Manager App
-Description
-  This is a full-stack Task Management Application built with React on the frontend and Node.js with Express on the backend. It allows users to register, log in, create, view, and update tasks assigned to users with due dates and statuses.
-Features
-  User authentication with signup and login
-  Token-based secured API endpoints (demo token implementation)
-  Create, read, and update tasks with title, description, assignee, due date, and status
-  Backend REST API using Express and JSON communication
-  Frontend built with React and Fetch API for seamless backend integration
-Technologies Used
-  Frontend: React.js
-  Backend: Node.js, Express.js
-  Communication: RESTful JSON APIs
-  Middleware: CORS, JSON body parsing
-Installation and Usage
-  Backend
-    Navigate to the backend folder
-    Run npm install to install dependencies
-    Start backend server: node server.js (runs on port 3001)
-  Frontend
-    Navigate to the frontend folder
-    Run npm install to install dependencies
-    Start frontend development server: npm start (runs on port 3000)
-    Ensure API URLs in the frontend point to http://localhost:3001
-  Workflow
-    Signup a new user or login
-    Manage task list: add new tasks, view existing tasks, and update task status
-Future Improvements
-  Replace in-memory storage with a persistent database
-  Implement real JWT authentication with password hashing
-  Enhance UI/UX and responsiveness
-  Add user roles and notification features
+# Task Manager App
+
+## Description
+A full-stack task management application built with React and Node.js/Express.  
+Allows users to register, login, and manage tasks with status, due dates, and assignees.
+
+## Features
+- User signup and login with token-based auth (demo token)
+- Create, view, and update tasks
+- Backend RESTful API with JSON
+- Frontend React app with fetch API calls
+
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express
+- Communication: REST API, JSON
+- Middleware: CORS, JSON parsing
+
+## Installation & Usage
+
+### Backend
+1. Navigate to backend folder  
+2. Run `npm install`  
+3. Start backend: `node server.js` (default port 3001)
+
+### Frontend
+1. Navigate to frontend folder  
+2. Run `npm install`  
+3. Run frontend: `npm start` (default port 3000)  
+4. Configure API base URL in frontend to `http://localhost:3001`
+
+## Future Improvements
+- Replace in-memory storage with persistent database
+- Add real JWT authentication and password hashing
+- Enhanced UI/UX features and responsiveness
+- User roles and notifications
+
+## License
+Specify your project license here (e.g., MIT License).
